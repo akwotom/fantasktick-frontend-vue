@@ -1,0 +1,20 @@
+
+
+$theme_purple: #8114DF;
+$theme_orange: #FFA500;
+
+@import 'bootstrap';
+
+
+.btn-primary {
+    @include button-variant(white, transparent, $theme_orange);
+}
+
+html{
+    --theme-purple: #8114DF;
+    --theme-orange: #FFA500;
+}
+
+// .btn-outline-primary {
+//     @include button-outline-variant(white, white, $theme_orange, $theme_orange);
+// }
