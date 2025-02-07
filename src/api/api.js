@@ -66,7 +66,7 @@ class API {
     }
 
     /** @readonly */
-    static SERVER_URL = 'http://localhost:8000'
+    static SERVER_URL = process.env.API_URL || 'http://localhost:8000'
 
 }
 
