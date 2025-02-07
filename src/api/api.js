@@ -66,7 +66,7 @@ class API {
     }
 
     /** @readonly */
-    static SERVER_URL = import.meta.env.API_URL || 'http://localhost:8000'
+    static SERVER_URL = import.meta.env.VITE_APP_API_URL || 'http://localhost:8000'
 
 }
 
